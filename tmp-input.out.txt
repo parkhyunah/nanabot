@@ -1,0 +1,10 @@
+
+<================ Tagged Result ===================>
+ 나는           : 나(CTP1) + 는(fjb)
+ 돈을           : 돈(CMCN) + 을(fjco)
+ 많이           : 많이(SBO)
+ 많이           : 많이(SBO)
+ 벌어서         : 벌(YBDO) + 어서(fmocs)
+ 부자가         : 부자(CMCN) + 가(fjcs)
+ 될             : 되(YBDO) + ㄹ(fmotgf)
+ 거야           : 것(CMDO) + 이(fpd) + 야(fmofd)

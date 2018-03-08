@@ -1,0 +1,574 @@
+# '#'로 시작하는 라인은 주석문
+
+# 필드 1 : 수정규칙의 타입(번호)
+# 필드 2 : 수정목표가 되는 형태소 
+# 필드 3 : 수정목표 형태소의 태그 ('-' 표시는 어절 전체 비교를 의미)
+# 필드 4 : 바로 다음 형태소 (존재하지 않으면 'X' 표시를 넣을 것)
+# 필드 5 : 바로 다음 형태소의 태그
+# 필드 6 : 부가 조건 1 
+# 필드 7 : 부가 조건 2
+# 필드 8 : 수정 결과
+
+# 각 필드 사이는 TAB으로 분리한다. (TAB이 여러개여도 무관)
+# 필드 4, 5, 6은 '|'를 사용하여 여러 경우를 나열할 수 있다
+
+
+#####################################################################
+# 타입 1 : 어절 전체를 필드 6의 결과로 수정 (태깅 전 수정규칙)      #
+#####################################################################
+
+1	해도		*	*	*	*	*	YBDO+fmocs
+1	내주며		*	*	*	*	*	YBDO+fmocs
+1	여기며		*	*	*	*	*	YBDO+fmocs
+1	말하고		*	*	*	*	*	YBDO+fmocc
+1	사서		*	*	*	*	*	YBDO+fmocs
+1	나선		*	*	*	*	*	YBDO+fmotg
+1	도와		*	*	*	*	*	YBDO+fmoca
+1	새지		*	*	*	*	*	YBDO+fmoca
+1	그어		*	*	*	*	*	YBDO+fmoca
+1	가			*	*	*	*	*	YBDO+fmoca
+1	오신		*	*	*	*	*	YBDO+fmb+fmotg
+1	힘들		*	*	*	*	*	YBDO+fmotg
+1	남은		*	*	*	*	*	YBDO+fmotg
+1	살아남을	*	*	*	*	*	YBDO+fmotg
+1	신나는		*	*	*	*	*	YBDO+fmotg
+1	하지는		*	*	*	*	*	YBDO+fjb
+1	남이		*	*	*	*	*	CMCN+fjcs
+1	차가		*	*	*	*	*	CMCN+fjcs
+1	새가		*	*	*	*	*	CMCN+fjcs
+1	지난해		*	*	*	*	*	CMCN
+1	이달		*	*	*	*	*	CMCN
+1	키			*	*	*	*	*	CMCN
+1	키가		*	*	*	*	*	CMCN+fjcs
+1	키는		*	*	*	*	*	CMCN+fjb
+1	키를		*	*	*	*	*	CMCN+fjco
+1	개가		*	*	*	*	*	CMCN+fjcs
+1	때가		*	*	*	*	*	CMCN+fjcs
+1	성적이		*	*	*	*	*	CMCN+fjcs
+1	성적을		*	*	*	*	*	CMCN+fjco
+1	성적은		*	*	*	*	*	CMCN+fjb
+1	부지를		*	*	*	*	*	CMCN+fjco
+1	성적에		*	*	*	*	*	CMCN+fjcao
+1	일정이		*	*	*	*	*	CMCN+fjcs
+1	일기로		*	*	*	*	*	CMCN+fjcao
+1	입주가		*	*	*	*	*	CMCPA+fjcs
+1	바로는		*	*	*	*	*	CMDO+fjcao
+1	등에		*	*	*	*	*	CMDO+fjcao
+1	등에는		*	*	*	*	*	CMDO+fjb
+1	등에도		*	*	*	*	*	CMDO+fjb
+1	등과		*	*	*	*	*	CMDO+fjj
+1	등과의		*	*	*	*	*	CMDO+fjcg
+1	건데		*	*	*	*	*	CMDO+fpd+fmof
+1	안전과		*	*	*	*	*	CMCPA+fjj
+1	내가		*	*	*	*	*	CT+fjcs
+1	우리는		*	*	*	*	*	CT+fjb
+1	뭐			*	*	*	*	*	CT
+1	뭐라		*	*	*	*	*	CT+fjcaq
+1	이런		*	*	*	*	*	SGR
+1	어떤		*	*	*	*	*	SGR
+1	아무런		*	*	*	*	*	SGO
+1	현			*	*	*	*	*	SGO
+1	그렇게		*	*	*	*	*	SBR
+1	어떻게		*	*	*	*	*	SBR
+1	일일이		*	*	*	*	*	SBO
+1	실제로		*	*	*	*	*	SBO
+1	최소한		*	*	*	*	*	SBO
+1	최대한		*	*	*	*	*	SBO
+1	왜			*	*	*	*	*	SBO
+1	지금		*	*	*	*	*	SBO
+1	새로		*	*	*	*	*	SBO
+1	계속		*	*	*	*	*	SBO
+1	한편		*	*	*	*	*	SBO
+1	오래		*	*	*	*	*	SBO
+1	그만		*	*	*	*	*	SBO
+1	이만		*	*	*	*	*	SBO
+1	그럼		*	*	*	*	*	SBJ
+1	한일		*	*	*	*	*	CMP
+1	이란		*	*	*	*	*	CMP
+1	그간		*	*	*	*	*	CMCN
+1	수일		*	*	*	*	*	CMCN
+1	시일		*	*	*	*	*	CMCN
+1	차기		*	*	*	*	*	CMCN
+1	출전		*	*	*	*	*	CMCPA
+1	수신		*	*	*	*	*	CMCPA
+1	시종		*	*	*	*	*	CMCPA
+1	살인		*	*	*	*	*	CMCPA
+1	할인		*	*	*	*	*	CMCPA
+1	일간		*	*	*	*	*	CMCPA
+1	전치		*	*	*	*	*	CMCPA
+1	실례		*	*	*	*	*	CMCPA
+1	주요		*	*	*	*	*	CMCPS
+1	데			*	*	*	*	*	CMDO
+1	때			*	*	*	*	*	CMDO
+
+
+#####################################################################
+# 타입 2 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#		   다음 형태소의 어휘가 필드 4일 때                         #
+#####################################################################
+
+# 어절이 '사시(CMCN)+는'이면 'YBDO+fmb'로 된 결과로 수정
+2	사시	CMCN	는	*		*	*	YBDO+fmb
+2	보시	CMCN	는	*		*	*	YBDO+fmb
+2	관하	YBDO	ㄹ		*		*	*	CMCPA
+2	굵		YBHO	기		*		*	*	CMCN
+2	말로	CMCN	만		*		*	말	CMCN+fjb
+2	말로	CMCN	는		*		*	말	CMCN+fjcao
+2	제		CT		의		*		*	*	CMCPA
+2	그		CT		간		*		*	*	CMCN
+2	여러분	CT		들		*		*	*	CMCN
+2	입장	CMCPA	이		*		*	*	CMCN
+2	고지	CMCPA	에		*		*	*	CMCN
+2	무상	CMCPS	으로	*		*	*	CMCN
+2	성명	CMCPA	X		X		*	*	CMCN
+2	가정	CMCPA	X		X		*	*	CMCN
+2	한		SGN		자		*		*	*	CMCN
+2	한		SGN		도		CMDU	*	한도	CMCN
+2	나		CT		중		*		*	나중	CMCN
+2	우리	CT		당		*		*	우리당	CMCN
+2	인도	CMP		적		*		*	인도적	CMCN
+2	나라	CMCN	들		*		*	나라들	CMCN
+2	두		SGN		통		*		*	두통	CMCN
+2	사장	CMCN	되		*		*	사장	CMCPA
+2	만		CMCN	t		*		*	*		CMDO
+2	보		YA		다		fmocc	*	보다	SBO	
+2	현재	CMCN	X		X		*	*		SBO	
+2	공지	CMCN	X		X		*	*		CMCPA
+2	성		CMCN	적		fps		*	성적	CMCN
+2	어느곳	CMCN	이		fpd		*	*		CMCN+fjb
+2	이		CT		내		fps		*	이내	CMCN
+2	열		SGN		원		*		*	열원	CMCN
+
+
+#####################################################################
+# 타입 3 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#		   다음 형태소의 태그가 필드 5일 때                         #
+#####################################################################
+
+# '해서는'이 '해서(CMCN)+는(fjb)', '해서도'가 '해서(CMCN)+도(fjb)'로 될 경우
+3	해서	CMCN	*	fjb						*	*	YBDO
+3	시청	CMCPA	*	fjcao					*	*	CMCN
+3	형		CMCN	*	fjcs|fjb|fjcao			*	*	CT
+3	공고	CMCN	*	fjco|fjcao				*	*	CMCPA
+3	투신	CMCPA	*	fjcs|fjb|fjcao			*	*	CMCN
+3	경기	CMCPA	*	fjcs|fjb|fjcao			*	*	CMCN
+3	일정	CMCPS	*	fjcs|fjco|fjcao|fjb		*	*	CMCN
+3	매장	CMCPA	*	fjcs|fjcg|fjj|fjcac|fjcao|fjb|fpd		*	*	CMCN
+3	중대	CMCPS	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	*	CMCN
+3	이상	CMCPS	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	이상	CMCN
+3	선		CMCPS	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	*	CMCN
+3	입장	CMCPA	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	*	CMCN
+3	연금	CMCPA	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	*	CMCN
+3	사고	CMCPA	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	*	CMCN
+3	재단	CMCPA	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	재단	CMCN
+3	가정	CMCPA	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	가정	CMCN
+3	의지	CMCPA	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd	*	*	CMCN
+3	무료	CMCPS	*	fjcs|fjco|fjcg|fjj|fjcac|fjcao|fjb|fpd|gp|gq|gd|go	*	*	CMCN
+
+3	성명	CMCPA	*	gp		*	*		CMCN
+3	인코딩	CMCN	*	*		*	*		CMCPA
+3	선물	CMCN	*	*		*	*		CMCPA
+3	청산	CMCN	*	*		*	*		CMCPA
+3	관리하	CMCN	*	*		*	*		CMCPA+fpd
+3	대우	CMP		*	*		*	*		CMCPA
+3	관중	CMP		*	*		*	*		CMCN
+
+
+
+#####################################################################
+# 타입 4 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#		   바로 앞 어절의 첫번째 형태소의 어휘가 필드 6일 때        #
+#####################################################################
+
+# '들다'가 '듣다'로 수정되어야 하는 경우
+4	들		YBDO	*	*	대하					듣		YBDO
+
+# '소녀 가장'
+4	가장	SBO		*	*	소년|소녀|소년소녀		*		CMCN
+
+# '소비자 만족도'
+4	만족	CMCPS	도	*	고객|소비자				만족도	CMCN
+
+# '불이 나'
+4	나		-		*	*	불|산불|화재|화|성질|신경질|짜증	나		YBDO+fmoca
+
+
+#####################################################################
+# 타입 5 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#		   바로 앞 어절의 첫번째 형태소의 태그가 필드 6일 때        #
+#####################################################################
+
+# '본 시스템은~'에서 '본'이 문장 맨 처음에 나타나면 'SGO'로 수정
+5	보		YBDO	ㄴ	*		###				*		SGO
+5	다르	YBHO	ㄴ	*		###				*		SGO
+5	아니	SBO		*	*		###				*		K
+5	이어	-		*	*		###				*		SBO
+5	나와	-		*	*		###				*		CT+fjj
+5	그리	YBDO	고	fmoca	###				*		SBJ
+5	강진	CMP		*	*		CSC				*		CMCN
+5	비고	-		*	*		###				비고	CMCN	
+5	신		CMCN	도	*		CSC				신도	CMCN
+5	이내	-		*	*		CSC				이내	CMCN
+
+# '일어'가 '일본어'의 의미로 사용될 때를 위해
+5	일		YBDO	어	*		###|SBO|SBJ		*	CMCN
+5	대하	YBDO	ㄴ	*		###|SBO|SBJ		*	CMP
+
+# '전 ~' '난 ~' '넌 ~' '널 ~'이 문장 맨 처음에 나타나면 'CT+fjb'로 수정
+5	전		SGO		X	X		###|SBO|SBJ		*	CT+fjb
+5	여기	YBDO	ㄴ	*		###|K|SBJ		*	CT+fjb
+5	나		YBDO	ㄴ	*		###|SBO|SBJ		*	CT+fjb
+5	널		YBDO	ㄴ	*		###|SBO|SBJ		*	CT+fjb
+5	널		YBDO	ㄹ	*		###|SBO|SBJ		*	CT+fjb
+
+
+#####################################################################
+# 타입 6 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#          바로 앞 어절의 마지막 형태소의 어휘가 필드 6일 때        #
+#####################################################################
+
+# '~보다 적다'
+6	적		YBDO	*	*	보다				*	YBHO
+6	낮은	-		*	*	보다				*	YBHO
+
+# '한 번만 보고도 ~'
+6	보고	CMCPA	*	*	만			*	YBDO
+
+# '의회에 보고 및 질의서를 ~'
+6	보		YBDO	고	*	에			*	CMCPA
+6	대한	CMP		X	X	에			*	YBDO	
+
+# '들다'가 '듣다'로 수정되어야 하는 경우
+6	들		YBDO	*	*	은다고|다고|ㄴ다고|는다고|라고|라	듣		YBDO
+
+# '~할지도 몰라'
+6	몰		YBDO	*	*	지|ㄹ지|ㄹ지도|ㄹ지는|도|는			모르	YBDO
+
+# '다음주 초 '
+6	초		CMCN	*	*	지난주|금주|이번주|내주|다음주|지난달|이번달|다음달	*	CMDU
+
+# '5개 주'
+6	주		CMDO	*	*	개|몇개			*	CMCN
+6	말		CMDU	*	*	무슨			*	CMCN
+
+6	성명	CMCPA	*	*	의				*	CMCN
+6	대전	CMCN	*	*	와의|과의		*	CMCPA
+
+# '~하기(를) 바라며 '
+6	바		CMDO	이	*	기				*	YBDO	
+
+# '~으로 여기다'
+6	여기	CT		는	*	로|으로			*	YBDO
+
+# '~에게 속은'
+6	속		CMCN	은	*	에|에게|로|으로		*	YBDO+fmotg
+
+
+#####################################################################
+# 타입 7 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#          바로 앞 어절의 마지막 형태소의 태그가 필드 6일 때        #
+#####################################################################
+
+# '행동이 지나치다'일 때 앞이 주격조사(fjcs)이고 '지나치다'가 YBDO로 
+# 태그된 것을 YBHO로 수정
+7	지나치	YBDO	*	*	fjcs|fjb		*	YBHO
+7	쓰		YBDO	*	*	fjb				*	YBHO
+7	나		CT		는	*	fjcs			나	YBDO+fmotg
+7	적		YBDO	*	*	fjcs|fjb		*	YBHO
+7	적		CMCN	은	*	SBO|SBR			*	YBHO
+7	적		CMCN	은	*	fjco			*	YBDO
+7	실은	SBO		X	X	fjco			*	YBDO
+7	살		YBDO	*	*	fjco			사	YBDO
+7	높이는	-		*	*	fjco			*	YBDO
+7	잘해야	SBO		X	X	fjco			*	YBDO+fmocs
+
+# '~을 보고도 ~'
+7	보고	CMCPA	*	*	fjco					*	YBDO
+7	신고	CMCPA	*	*	fjco|fmoca|fmocs		*	YBDO
+7	신고서	-		*	*	fjco|fmoca|fmocs		*	YBDO
+7	입은	-		*	*	fjco|fmoca|fmocs		*	YBDO
+7	타		-		*	*	fjcs|fjco|fjcao|fmoca|fmocs		*	YBDO+fmoca
+7	물을	-		*	*	fjco		묻	YBDO+fmotg
+7	물은	-		*	*	fjco		묻	YBDO+fmotg
+7	들을	-		*	*	fjco		듣	YBDO+fmotg
+7	들은	-		*	*	fjco		듣	YBDO+fmotg
+7	더하	YBHO	*	*	fjco		더하	YBDO
+
+# '~해 달라고 ~'
+7	달		YBDO	*	*	fmocs			*	YA
+7	다르	YBHO	아	*	fmoca|fmocs		달	YA
+
+# '브라우저 내에서~'일 때 앞 단어가 명사이면 뒤의 '내'는 의존명사로 수정
+7	내		CMCN	*	*	CMCPA|CMCPS|CMCN|CMP|CMDU|CMDO	*	CMDO
+7	내		CT		X	X	CMCPA|CMCPS|CMCN|CMP|CMDU|CMDO	*	CMDO
+7	수치	CMCPS	*	*	CMCPA|CMCPS|CMCN|CMP|CMDU|CMDO	*	CMCN
+7	가공	CMCPS	*	*	CMCPA|CMCPS|CMCN|CMP|fjcg		*	CMCPA
+7	이상	CMCPS	*	*	fmotg|CMDU|CMDO				이상	CMCN
+7	도청	CMCPA	*	*	CMP							도청	CMCN
+
+# '~하는 분'에서 '분'은 의존명사가 아니라 일반 명사
+7	분		CMDU	*	*	fmotg		*	CMCN
+7	재간	CMCPA	*	*	fmotg		*	CMCN
+7	주석	CMCN	*	*	fmotg|fjcg	*	CMCPA
+7	정체	CMCPA	*	*	fjcg		*	CMCN
+
+# '박달나무 가지' '나무의 가지를 ~'
+7	가지	CMDU	*	*	CMCN|fjcg	*	CMCN
+
+# '~인 점에서~'일 때 앞 어절 마지막이 관형형 전성어미(fmotg)이면 명사로 수정
+7	점		CMDO	*	*	fmotg		*	CMCN
+7	교감	CMCN	*	*	fmotg		*	CMCPA
+7	줄		CMCN	*	*	fmotg		*	CMDO
+7	면		CMCN	*	*	fmotg		*	CMDU
+7	시		CMCN	*	*	fmotg		*	CMDU	
+7	걸		YBDO	*	*	fmotg		*	CMDO
+7	바람	CMCN	에	*	fmotg		*	CMDO
+7	진주	CMP		*	*	fmotg|fjcg	*	CMCN
+
+# '케네디(CMP) 전 대통령' '7년(CMDU) 전' '죽기(fmotn) 전'
+7	전		SGO		X	X	CMP|CMDU|fmotn	*	CMCN
+
+# '~ 간의 ~'에서 앞 어절이 명사 또는 접미사(~들)이면 '간/CMDO'으로 수정
+7	간		CMCN	의	fjcg	CMCPA|CMCPS|CMCN|CMP|CMDU|CMDO|fps	*	CMDO
+7	간		CMCN	에	*		CMCPA|CMCPS|CMCN|CMP|CMDU|CMDO|fps	*	CMDO
+7	중		CMCN	이	fpd		CMCPA								*	CMDO
+
+# 'PC 한 대로 ~'에서 앞 어절이 수사이면 '대/CMDU+로'로 수정
+7	대로	CMDO	*	*		SGO|SGN|CSC|CSO		*	CMDU+fjcao
+
+# '70년대 초 '
+7	초		CMCN	*	*		CMDU|CMDO		*	CMDU
+
+# '3년 만에 만난 ~'
+7	만		CSC		*	*		CMDU			*	CMDO
+
+# '한국 수도 ~'
+7	수		CMDO	도	*		CMP			수도	CMCN
+
+# '무슨 일을 하니?'
+7	일		CMDU	*	*		SGO				*	CMCN
+7	여기	CT		는	*		SBO				*	YBDO
+
+# '공업 단지'
+7	단지	SBO		X	X		CMCN|CMCPA|CMP		*	CMCN
+
+
+#####################################################################
+# 타입 8 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#          뒤 어절 첫 형태소의 어휘가 필드 6일 때                   #
+#####################################################################
+
+8	여장	CMCPA	을	fjco	풀|챙기		*	CMCN
+8	우려가	-		*	*		있			*	CMCPA+fjcs
+8	식기	CMCN	*	*		전			*	YBDO+fmotn
+8	고문	CMCN	*	*		하|당하|견디|받			*	CMCPA
+8	수입	CMCPA	*	*		올리|벌|얻	*	CMCN
+8	열		CSC		*	*		있|높|많|내리|없	*	CMCN
+
+# '올 겨울에는' '올 연말까지'
+8	오		YBDO	ㄹ	*		봄|여름|가을|겨울|연말|하반기	*	SGO
+
+# '이 같은 일은 ~'
+8	이		SGR		X	X		같		*		CMCN
+
+# '보기를 범하다'
+8	보		YBDO	기	fmotn	범하	보기	CMCN
+8	사		YBDO	기	fmotn	충천|오르|떨어지	사기	CMCN
+
+# '온 몸을 다해 ~' '온 겨레가'
+8	온		-		*	*		겨레|민족|국민|인류|나라|거리|동네|몸|누리|세상|세계|천하|우주	*	SGO
+
+8	전		-		*	*		국민|세계|인류		*	SGO
+
+# '일한 번역기' 등
+8	일하	YBDO	ㄴ	fmotg	번역|번역기|채팅|채팅기|기계|기계번역|변환	*	CMCN
+
+8	한		CMP		*	fjcs|fjco|fjb		풀|맺|맺히|품|안|담		*	CMCPS
+
+8	한		CMDO	도	*					안|내|외|밖				한도	CMCN
+
+8	다르	YBHO	ㄴ	*					나라|사람				다른	SGO
+
+# '남과 북'
+8	남		CMCN	과	fjj		북		*		CMP
+
+8	고전	CMCN	을	*		면하	고전	CMCPA
+
+
+#####################################################################
+# 타입 9 : 첫 형태소의 어휘가 필드 2, 태그가 필드 3이고             #
+#          뒤 어절 첫 형태소의 태그가 필드 6일 때                   #
+#####################################################################
+
+# '지나친'의 뒤에 명사가 오면 형용사로 수정
+9	지나치	YBDO	ㄴ	fmotg	CMCPA|CMCPS|CMCN|CMP|CMDU|CMDO	*	YBHO
+9	비상	CMCPA	X	X		CMCPA|CMCPS|CMCN	비상	CMCN	
+9	열		SGN		X	X		CMCPA|CMCPS|CMCN	열		CMCN
+
+# '이중 3명이 ~'와 같이 '이중'의 뒤에 수사가 오면 '이+중'으로 수정
+9	이중	CMCN	X	X		CSC|CSO|SGN|SGO		*	CT+fps
+
+# '일한 chatting' 등
+9	일하	YBDO	ㄴ	fmotg	F				*	CMCN
+
+9	저		SGR		X	X		YBDO|SBO		*	CT
+9	잘		SBO		X	X		CMCN|CMDO|CMDU	*	YBDO	
+
+# '네 책상' '네 것'
+9	네		SGN		X	X		CMCN|CMDO		*	CT
+
+# '올 6월에는'
+9	오		YBDO	ㄹ	*		CSC				*	SGO
+9	오는	-		*	*		CSC				*	YBDO+fmotg
+
+# '3%가 오른 721포인트로 ~'
+9	오른	SGO		X	X		CSC				오르	YBDO+fmotg
+9	신		CMCN	도	*		CSC				신도	CMCN
+
+# '시가 3천만원'
+9	시		CMCN	가	*		CSC				시가	CMCN
+
+# '수도 서울'
+9	수		CMDO	도	*		CMP				수도	CMCN
+9	경기	-		*	*		CMP				경기	CMP
+
+# '고 이병철 회장'
+9	고		CMP		X	X		CMP				*		SGR	
+
+# '들을 수' '들을 지' '들을 때'
+9	들을	-		*	*		CMDO			듣		YBDO+fmotg	
+
+# '볼 넷' '볼 2'
+9	보		YBDO	ㄹ	*		CSC|SGN			볼		CMCN
+
+
+#####################################################################
+# 타입 10 : 어절을 무조건 수정시킬 때                               #
+#                                                                   #
+# (타입 1은 태깅 전에 수정시키는 것이고, 타입 10은 태깅이 끝난      #
+#  후에도 여전히 오류가 남아있을 때 수정시키는 것이다)              #
+#####################################################################
+
+10	난		CMCN	X	X	*	*		CT+fjb
+10	널		CMCN	X	X	*	*		CT+fjco
+10	범		CMCN	X	X	*	*		SBO
+10	각		CMCN	X	X	*	*		SGO
+10	아무	CT		X	X	*	*		SGO	
+10	인수	CMCN	X	X	*	*		CMCPA
+10	관리	CMCN	X	X	*	*		CMCPA
+10	심사	CMCN	X	X	*	*		CMCPA
+10	수수	CMCN	X	X	*	*		CMCPA
+10	공사	CMCN	X	X	*	*		CMCPA
+10	전형	CMCN	X	X	*	*		CMCPA
+10	회화	CMCN	*	*	*	*		CMCPA
+10	간사	CMCPS	X	X	*	*		CMCN
+10	무료	CMCPS	X	X	*	*		CMCN
+10	이상	CMCPS	X	X	*	이상	CMCN
+10	사고	CMCPA	X	X	*	*		CMCN
+10	재단	CMCPA	X	X	*	재단	CMCN
+10	시청	CMCPA	X	X	*	*		CMCN
+10	재계	CMCPA	*	*	*	*		CMCN
+10	도가	CMCN	X	X	*	*		CMCN+fjcs
+10	화가	CMCN	X	X	*	*		CMCN+fjcs
+10	메이	YBDO	ㄹ	*	*	*		CMCN
+10	중		CMCN	도	fjb	*	중도	CMCN
+10	죄		SBO		X	X	*	*		CMCPS
+10	내달	-		*	*	*	내달	CMCN
+10	강도	-		*	*	*	강도	CMCN
+10	사기	-		*	*	*	사기	CMCN
+10	매달	-		*	*	*	매달	CMCN
+10	유해	-		*	*	*	유해	CMCPS
+10	박해	-		*	*	*	박해	CMCPA
+10	제조	-		*	*	*	제조	CMCPA
+10	구도	CMCPA	*	*	*	구도	CMCN
+10	그대로	-		*	*	*	*		SBR	
+10	유독	-		*	*	*	*		SBO
+10	아마	CMCN	X	X	*	*		SBO
+10	처음	CMCN	X	X	*	*		SBO
+10	총		CMCN	X	X	*	*		SGO
+10	돈		-		*	*	*	돈		CMCN
+10	중의	-		*	*	*	중		CMDO+fjcg
+10	위로	-		*	*	*	위		CMCN+fjcao
+10	강원도	-		*	*	*	강원도	CMCN
+10	나가	-		*	*	*	나가	YBDO+fmoca
+
+
+
+#####################################################################
+# 타입 11 : 자신의 앞, 뒤 어절의 조건을 동시에 체크                 #
+#           앞 어절의 마지막 태그와 뒷 어절의 첫 태그가             #
+#           필드6에 지정된 태그에 일치하면 수정                     #
+#####################################################################
+
+# '국가 대 국가' '철수 대 민호'
+11	대		CMDU	X	X	CMCPA|CMCPS|CMCN|CMP	*	CMDO
+
+
+
+#####################################################################
+# 타입 12 : 자신의 앞어절의 첫번째 형태소의 어휘가					# 
+#			필드 6에 지정된 것이 아닐 때   							#
+#####################################################################
+
+
+
+#####################################################################
+# 타입 13 : 자신의 앞어절의 첫번째 형태소의 태그가					# 
+#			필드 6에 지정된 것이 아닐 때   							#
+#####################################################################
+
+# '모든 것이 한데 어우러져~'
+13	한데	-	*	*	###				한데	CMCN
+
+
+#####################################################################
+# 타입 14 : 자신의 앞어절의 마지막 형태소의 어휘가					# 
+#			필드 6에 지정된 것이 아닐 때   							#
+#####################################################################
+
+14	이어	-		*	*	을|를|에			*		SBO	
+14	이르	YBDO	*	*	에					*		YBHO
+
+
+#####################################################################
+# 타입 15 : 자신의 앞어절의 마지막 형태소의 태그가					# 
+#			필드 6에 지정된 것이 아닐 때   							#
+#####################################################################
+
+# '~하는 수 밖에'와 같은 경우를 제외한 나머지는 '수/CMCN'으로
+15	수		CMDO	*	*	fmotg		*		CMCN
+
+# '~가 다른 ' '~와 다른'의 경우를 제외한 나머지는 '다른/SGO'로
+15	다르	YBHO	ㄴ	*	fjcs|fjj|fjcac|SBO	다른	SGO
+
+# '~를 보기 위해'와 같은 경우를 제외한 나머지는 '보기/CMCN'으로
+15	보		YBDO	기	*	fjco					보기	CMCN
+15	보		YBDO	ㄴ	*	fjco|fjcaq|fmocs|fmocc	본		SGO
+15	법인	-		*	*	fmotg|fjcg				법인	CMCN
+
+15	나서	YBDO	어	*	fjcao				나		YBDO+fmocs
+15	신		CMCN	X	X	fjcg|CMCN|CMP|CMCPA|CMCPS	*	SGO
+15	개소	CMDU	*	*	CSC							*	CMCPA
+
+
+
+#####################################################################
+# 타입 16 : 자신의 뒷어절의 첫 형태소의 어휘가 						#
+#			필드 6에 지정된 것이 아닐 때   							#
+#####################################################################
+
+# '~을 나와 ~'
+16	나		CT		와	*	함께|같이		나오	YBDO+fmoca
+
+# '영화를 보다'
+16	영화	CMCPS	*	*	누리			영화	CMCN		
+
+
+
+#####################################################################
+# 타입 17 : 자신의 뒷어절의 첫 형태소의 태그가 						#
+#			필드 6에 지정된 것이 아닐 때   							#
+#####################################################################
+
+# '매일 아침에 ~'
+17	매일	-		*	*	CMDO			매일	CMCN

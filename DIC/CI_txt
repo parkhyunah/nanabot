@@ -1,0 +1,303 @@
+U		g f SCD %
+j		gj gB gl gr gh gt gD f SCD %
+M		f gj gB gl gr gh gt gD gu %
+f		U f M SCD -S gS gD gh gu gc gs gj gr gl gB %
+M*FC	M*FC %
+MCNCp	MPN %	
+MDIUB	SCD GSs SCM SCE SCJ -S %
+MDIUS	SCD GSs SCO SCM SCE SCJ -S %
+MDIBNos	SCD %
+T		gb gB gl gj gu gG gL %
+S		gb gB gr gl gh gt gj gG gD gu gL gc gS gC %
+GS		SCM SCE SCJ %
+SCD		f U # SCO SCM SCE SCJ %
+SCK		SCD SCM SCE SCJ %
+SCO		SCD SCM SCE SCJ %
+SCM		SCD SCE SCJ %
+SCE		SCD SCJ %
+SCJ		SCD %
+G		gb gB gl gj gL gG gD gu %
+K		gb gB gl gj gL %
+B		gh gb gB gl gj gL gu %
+j		gl gb gB gr gb gR gL gj gi gb gt gh gS gQ %
+jCm     Um MP*m MC*m MDIU*m MDIBNom MDIBP*m Tpdm TpOOm Td?m S*m f SCD -*m -h mjNg %
+jCma    TpOa %
+jCmeg   MDIU*m MDIBP*m MDIBNom MDONgm TpOe S*m %
+jCmeG	Um TpOe %
+jCtm	MP*m MC*m MDIU*m MDIBP*m MDIBNom T*m TpOa mjNg %
+jCy		Uy MC*y MP*y MDIU*y MDIBP*y MDIBNoy T*y S*y f SCD -*y -j mjNe mjNm %
+jCM		Um Ur MC*m MP*m MC*r MP*r MDIU*m MDIU*r MDIBP*m MDIBP*r MDIBNom MDIBNor 
+		T*m TpOa T*r S*m S*r f SCD -*m -*r -h mjNg %
+jCMagH	MDONl %
+jCY		Uy Ur MC*y MP*y MC*r MP*r MDIU*y MDIU*r MDIBP*y MDIBP*r MDIBNoy
+		MDIBNor T*y T*r S*y S*r f -*y -*r -j mjNe mjNm SCD %
+jCCE	U MD MPN Tpd TpOO  -N -s -b %
+jCCEa	MCN MDIBNo TpOa f -T -G %
+jCCEe	MCN MDIBNo TpOe f -T -G %
+jCCEj	MCNCp MCN?z %
+jCCN	U MPP MPI MPC MPE MPB MPO MC MDIU MDIBP MDIBNo S Td f -T -b -g -G -h -j
+		-m -P %
+jCCNi   MDONny %
+jCCNim  MDONe mjN TpOa %
+jCCC	U MC MP MDIU MDIBP MDIBNo S T f - mjN %
+jCCCh	BOSm %
+jCCCa	TpOa %
+jCCCe	TpOe %
+jSm		Um MC*m MP*m MDIU*m MDIBP*m MDIBNom T*m S*m f BOSm -*m -h mjNg mjAm %
+jSma	TpOa SCD %
+jSmag	MDONgm BJ gB gr gl gh gt gj gi gb gG gD gu gc gs gL gR gC gQ ge gS %
+jSme	TpOe %
+jStm	MC*m MP*m MDIU*m MDIBP*m MDIBNom T*m TpOa BOSm mjNg mjAm -nm %
+jStg	mjNg %
+jSY		Uy Ur MC*y MP*y MC*r MP*r MDIU*y MDIU*r MDIBP*y MDIBP*r MDIBNoy
+		MDIBNor T*y T*r S*y S*r f BOSy BOSr -*y -*r -j mjNm mjNe mjAY -ny %
+jSYm    MDONny MDONnr %
+jSB		BOS mjA %
+jSC		U MC MP MDIU MDIBP MDIBNo Tpd Td TpOO S f BOS - mjN mjA %
+jSCa	TpOa %
+jSCaK   K %
+jSCaim  MDONg BJ %
+jSCaiH	BJ %
+jSCe	TpOe %
+jSNm	MC %
+jST		mT %
+jJm		Um MC*m MP*m MDIU*m MDIBP*m MDIBNom T*m S*m SCD f -*m -h mjNg %
+jJma	TpOa %
+jJme	TpOe %
+jJY		Uy Ur MC*y MP*y MC*r MP*r MDIU?y MDIU?r MDIBNoy MDIBNor T*y T*r S*y S*r SCD f -*y -*r -j mjNe mjNm %
+jJC		U MC MP MDIU MDIBP MDIBNo Tpd TpOa TpOO Td S f - mjN %
+DB		gj gB gl gr gh gt gG gL gR gu %
+DU	    gj gB gl gr gh gt gG gL gR gu %
+DARmeA	mCba mCbe mCby %
+DA*E	mCba mCbe mCby %
+DA*A	mCba mCbe %
+DA*G	mCbg %
+DA*K	mCbk %
+DA*J	mCbj %
+HB		gj gB gl gr gh gt gG gL gR gu %
+HARma	mCba mCbe mCby mCbk %
+HA*A	mCba mCbe %
+HA*G	mCbg %
+HA*K	mCbk %
+HA*J	mCbj %
+ydhR	U MPI MCPh*d MCPd MCPc MCPC f -h %
+yddR	U MPI MCPd MCPC MCNCp MCN?z f -h %
+ydtR	U MPI MCPd MCPC f -h %
+ydsR	U MPI MCPc MCPC f -h %
+yhhR	U MPI MCPh*h MDOMP*y MDIBP*y MDOPh P f -ny %
+yhmR	U MPI MCN mjPm* %
+yhs		U MPI MCPs f -ny %
+yhr		U MPI MCPR f %
+yhi		U MC MP MDI Tpd TpOa TpOO Td S f - mjN j*H m*H g B %
+yhd		U MP MC T f %
+yhc		U MDOPs %
+yhg		U MPI MP MC f %
+ejm		yd yhh yhm yh?uI yhi
+		D?Rm D?Im*R D?IY?rI D?IY?buI 
+		H?Rm H?Im*R H?IY?rI H?IY?buI H?IY?haI %
+ejY		yhc yhg D?Ry D?IY?sI D?IY?dI H?Ry H?IYasI %
+ebm		ejm %
+eGa		yhg 
+		D?R?a D?R?e D?ImagR D?ImanR D?ImaeI D?ImalI D?IYarR D?IYasI D?IYadI D?IYabuI D?IYabwI 
+		H?R?a H?R?e H?ImaeI H?ImalI H?IYarR H?IYasI H?IYabwI H?IYahaI 
+		ej %
+eGe		yhi yddR ydsR yhsuI yhruI yhduI yhc
+		D?R?e D?Ryi D?Ime D?IYerR D?IYesI D?IYebuI D?IYebwI D?IYedI
+		H?R?e H?R?i H?IYahR H?ImeeI H?ImelI H?IYerR H?IYehaI H?IYebuI H?IYebwI 
+		ej %
+eGh		yhi y?hR yhmR ydtR D?ImayR H?ImayR ejm %
+emC		y*R yhc yhg yhi D?R D?I*R H?R H?I*R ej eG ydtR %
+egm		yd?R yhhR yhmR yhi 
+		D?Rm D?ImayR D?ImagR D?ImaeR D?ImalR D?Ime?R
+		H?Rm H?Im*R H?IY?haI H?IY?buI 
+		ej ydtR %
+egy		yhsR yhrR yhdR yhc yhg
+		D?Ry D?IY?sR D?IY?dR D?IY?bR
+		H?Ry H?IY?sR H?IY?hR H?IY?bR
+		eG em %
+egY		yhc yhg
+		D?Ry D?IY?rR D?IY?sI D?IY?dI
+		H?Ry H?IY?rR H?IY?sI
+		eG em %
+eh		y*R yhi yhc yhg
+		D?R D?I*R
+		H?R H?I*R
+		ej eG em %
+mjPh    gB gi gb gR %
+mjPhn	yd
+		D?Rm D?Im*R D?IY?rI D?Ry D?IY?sR D?IY?dR D?IY?bR
+		H?Ryi
+		eG ej %
+mjPht	yhhR yh*I yhi yhmR
+		H?Rm H?Im*R H?IY?rI H?IY?haI H?IY?buI 
+		DURm DUIm*R DUIY?rI DUIY?haI DUIY?buI 
+		ej %
+mjPhe	yhc yhg
+		H?Ry HBIYasI %
+mjPge	D?Ry D?IY?sI D?IY?dI %
+mjPgd	yd yh?R yhi yhc yhg
+		D?Rm D?Im*R D?Ry D?IY?rR DBIY?sR DBIY?dR DBIY?bR 
+		HBRm HBIm*R H?Ry H?IY?rR HBIYasR HBIY?hR HBIY?bR
+		eG emC ej %
+mjPgt	yd D?Rm D?Im*R D?IY?rI D?IY?buI ej %
+mjPme	yhc yhg D?Ry DBIY?dI H?Ry HBIYasI DUIYasI DBIY?sI eG %
+mjPmr	yhmR %
+mjPmt	yd yhhR yh?uI yhi
+		D?Rm D?Im*R D?IY?rI D?IY?buI DUIY?haI
+		HBRm HBIm*R HBIY?rI HBIY?haI HBIY?buI
+		ej  %
+mjAm	yh?R yhi yhc yhg H?R HBI*R ej DUR %
+mjNm	yd yhmR yhhR yh?uI yhi
+		D?Rm D?Im*R D?IY?rR D?IY?buI DUIY?haI
+		HBRm HBIm*R HBIY?rR HBIY?haI HBIY?buI
+		ej %
+mjNe	yhc yhg D?Ry D?IY?sI D?IY?dI H?Ry HBIYasI eG emC %
+mjNg	yd yh*R yhi yhc yhg D?R D?I*R HBR HBI*R HARy ej eG emC %
+mCmg	DARgA %
+mCme	yhi HBRmi %
+mCmd	yd D?Rm D?Im*R D?IY?buI ej %
+mCmh	yhhR yhmR yh?uI H?Rma HBRme HBIm*R HBIY?rI HBIY?haI HBIY?buI 
+		DURma DURme DUIY?rI DUIY?haI DUIY?buI ej %
+mCmhm	HB*m DBIY*b %
+mCmC	yd yhmR yhhR yh?uI
+		D?Rm D?Im*R DUIY?haI HBIYebuI
+		H?Rma HBRme HBIm*R H?IY?buI H?IY?haI
+		ej g %
+mCmuC	DBIY?buI HBIY?buI HBIY?heI %
+mCmuh	HBIY?buI %
+mCmud	DBIY?buI %
+mCMdO	yd D?Rm D?Ima?R DBImeeR DBImelR DBImeuR D?IY?rR ej %
+mCMdL	yd D?Rm D?Im*R D?IY?rR ej %
+mCMC	yd yhmR yhhR yh?uI
+		D?Rm D?Im*R D?IY?rR DUIY?haI
+		HBRma HBRme HBIm*R HBIY?rR HBIY?haI 
+		ej g %
+mCDY	Uy Ur MC*y MC*r MP*y MP*r MDIU*y MDIU*r MDIBNoy MDIBNor T*y T*r S*y S*r SCD f -*y -*r -j mjNe mjNm %
+mCDm	Um MC*m MP*m MDIU*m MDIBNom T*m S*m f -*m %
+mCYi	D?Ryi H?Ryi %
+mCYs	eG emC %
+mCYdR	D?Rya D?Rye DBIY?sR DBIY?dR DBIY?bR %
+mCYdI	D?Rya D?Rye DBIY?sI DBIY?dI %
+mCYh	HBRya H?Rye HBIYasI DURy DUIYasI DBRy %
+mCYCI	yhc yhg D?Rya D?Rye D?IY?dI D?IY?sI HBRya H?Rye %
+mCCda	D?R?a D?ImaeI D?ImalI DAIYarR D?IYasI D?IYadI D?IYabuI D?IYabwI %
+mCCde	ydsR D?R?e D?Ime?I D?IYerR D?IYesI D?IYedI D?IYebuI D?IYebwI ej %
+mCCdCr	yd D?Rm D?Rya D?Rye D?Im*R D?IY?rR DBIY?sR DBIY?dR DBIY?bR ej %
+mCCdCi	yd D?Rm D?Rya D?Rye D?Im*R D?IY?rI DBIY?sR DBIY?dR DBIY?bR ej %
+mCChC	yh?R yhc yhg H?Rma H?Rme H?Rya H?Rye H?I*R DUR ej %
+mCCCa	yhg
+		D?R?a D?ImagR D?ImanR D?ImaeI D?ImalI DBIYarR D?IYasI D?IYadI
+		D?IYarR D?IYabuI D?IYabwI DUIYahaI
+		H?R?a HBImaeI HBImalI HBIYarR HBIYasI HBIYahaI HBIYabuI HBIYabwI %
+mCCCe	yddR ydsR yh?uI yhc
+		D?R?e D?Ime?I D?IYerR D?IYesI D?IYedI D?IYebuI D?IYebwI DUIYehaI D?ImayR
+		H?R?e HBIme?I HBIYerR HBIYahR HBIYehR HBIYehaI HBIYebuI HBIYebwI H?ImayR
+		ej %
+mCCCO	y?hR yhmR D?ImayR H?ImayR ydtR %
+mCCCCr	y*R yhc yhg
+		D?Rm D?Rya D?Rye D?Im*R D?IY?rR DBIY?sR DBIY?dR DBIY?bR
+		H?Rma HBRme HBRya H?Rye HBIm*R HBIY?rR HBIYasR HBIY?hR HBIY?bR
+		ej %
+mCCCCi	y*R yhc yhg
+		D?Rm D?Rya D?Rye D?Im*R D?IY?rI DBIY?sR DBIY?dR DBIY?bR
+		H?Rma HBRme HBRya H?Rye HBIm*R HBIY?rI HBIYasR HBIY?hR HBIY?bR
+		ej %
+mCba	yhg 
+		D?R?a D?ImagR D?ImanR D?ImaeI D?ImalI D?IYarR D?IYasI D?IYadI D?IYabuI D?IYabwI DUIYahaI
+		HBR?a HBImaeI HBImalI HBIYarR HBIYasI HBIYabuI HBIYabwI %
+mCbe	yddR ydsR yh?uI yhc
+		D?R?e D?Ryi D?Ime?I D?IYerR D?IYesI D?IYedI D?IYebuI D?IYebwI DUIYehaI
+		H?R?e HBRyi HBImayR HBIme?I HBIYerR HBIYehaI HBIYahaI HBIYebuI
+		HBIYebwI yhhR yhmR ydhR ydtR %
+mCbg	yd D?R D?I*R H?R ej yhsR H?I*R %
+mCbk	yd D?R D?I*R ej %
+mCby	ydhR ydtR D?ImayR %
+mCbj	yhi yd D?R D?I*R ej eG H?R H?I*R %
+mTmg	DARgA %
+mTme	yhi H?Rmi %
+mTmd	yd?R D?Rm D?Im*R D?IY?buI D?IYerI ej %
+mTms	ejm %
+mTmh	yhhR yhmR yh?uI H?Rma H?Rme H?Im*R H?IY?rI H?IY?haI H?IY?buI 
+		ej D?Rm*H DURme DUIY?rI DUIY?haI DUIY?buI %
+mTmuC	DBIY?buI HBIY?buI %
+mTmud	DBIY?buI %
+mTmuh	HBIY?buI %
+mTmC	yd?R yhmR yhhR yh?uI
+		D?Rm D?Im*R D?IY?buI DUIY?haI D?IY?rI
+		H?Rma H?Rme H?Im*R H?IY?haI H?IY?buI
+		ej %
+mTMd	yd?R D?Rm D?Im*R D?IY?rR ej %
+mTMC	yd?R yhmR yhhR yh?uI
+		D?Rm D?Im*R D?IY?rR DUIY?haI
+		H?Rma H?Rme H?Im*R H?IY?rR H?IY?haI 
+		ej %
+mTYi	D?Ryi H?Ryi %
+mTYs	eG em %
+mTYdR	D?Rya D?Rye D?IY?sR D?IY?dR D?IY?bR %
+mTYdI	D?IY?dI D?Rya D?Rye D?IY?sI %
+mTYhI	yhc yhg H?Rya H?Rye H?IYasI DURy DUIYasI DARyaJ %
+mTYhC	yhc yhg H?Rya H?Rye H?IY?rR H?IYasI DURy DUIYasI %
+mTYCR	yhsR yhrR yhdR yhc yhg
+		D?Rya D?Rye D?IY?sR D?IY?dR D?IY?bR
+		H?Rya H?Rye H?IY?sR H?IY?hR H?IY?bR %
+mTYCI	yhc yhg D?Rya D?Rye D?IY?dI H?Rya H?Rye HBIYasI DUIYasI %
+mTCdg	D?ImagR D?Rya D?Rye D?IY?sR D?IY?dR D?IY?bR %
+mTCdn	D?ImanR %
+mTCdi	yd?R D?Rm D?Rya D?Rye D?Im*R D?IY?rI D?IY?sR D?IY?dR D?IY?bR ej %
+mTCdr	yd?R D?Rm D?Rya D?Rye D?I*R %
+mTChC	yh?R yhc yhg H?R?a H?R?e H?I*R ej DUR %
+mTCCRO	y?hR yhmR D?ImayR H?ImayR ydtR %
+mTCCRC	yd?R yh?R yhc yhg 
+		D?Rm D?Rya D?Rye D?Im*R D?IY*R
+		H?R?a H?R?e H?Im*R H?IY*R
+		ej %
+mTCCIa	y?hR yhg yhmR ydtR 
+		D?R?a D?ImayR D?ImagR D?ImanR D?ImaeI D?ImalI D?IYarR D?IYasI D?IYadI D?IYab?I DUIYasI
+		H?Rma H?Rya H?ImayR H?ImaeI H?ImalI H?IYarR H?IYasI H?IYahaI H?IYabwI %
+mTCCIe	yddR ydsR yh?uI yhc
+		D?R?e D?Ime?I D?IYerR D?IYesI D?IYedI D?IYeb?I DUIYehaI
+		H?R?e H?Ime?I H?IYerR H?IY?haI H?IYebuI
+		ej eG emC %
+mTCCCC	yd?R yh?R yhc yhg
+		D?R?a D?R?e D?Im*R D?IY?sR D?IY?dR D?IY?bR
+		H?R?a H?R?e H?Im*R H?IY?rI H?IYasR H?IY?hR H?IY?bR
+		ej %
+-Nm		U f MPN MCNCp %
+-Ny		U MPN MCNCp %
+-Nr		U MPN MCNCp %
+-Ni		U MPNiy %
+-P		U MP %
+-s		U MPNs %
+-n		mjNm mjNe %
+-T		T %
+-d		SC %
+-S		SC %
+-bB		U MP MC MDIBN MDO T?d -g -b -M -N %
+-bN     U T?d -g -b -M MCN?z -N %		
+-g		U MP MDIU MC %
+-mD		U MP MDIBNo MDIUS MCP MCNr?j MCN?O MCNKm MCNKy MCNKr MCNC 
+		T gB gr gR gb gi %
+-mM     U MP MDIBNo MDIUS MCNr?j MCN?O MCNK MCNC
+		T gB gr gR gb gi %
+-G 		-b %
+-j		U MP MPC MPN MPP MC*j f %
+-h		U MP MPC MC*j f %
+gB		U M T f S G K B j m - g j %
+gr		U M T f S G K B j m - g j %
+gl		U M T f S G K B j m - g j %
+gh		U M f S mjN e - g j m %
+gt		U j m S - e g j %
+gj		U g j %
+gi		U M G T S f B j m - g j %
+gb		U M G T S f B j m - g j %
+gG		U M S f g j %
+gD		U M G S f T K m B - mjN g j %
+gu		U M S f - mjN g j %
+gc		U M S f - mjN m g j %
+gs		U M S f - mjN m g j %
+gL		U g j %
+gR		U M T G S f j m - g j %
+gC		U M T G S f B K j m - g j %
+gQ		U M T S f j B m - g K j %
+ge		U M T S f j m - g K j %
+gS		U M T S f j m - g j % $
